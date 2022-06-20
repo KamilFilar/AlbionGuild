@@ -1,6 +1,10 @@
-# zakon-wiedzy
+# ZakonWiedzy :performing_arts:
+This app was made in Vue 3.
 
-## Project setup
+## :sparkles: Get started: 
+This project was generated with [Vue CLI](https://cli.vuejs.org) version 5.0.0.
+
+### Project setup
 ```
 npm install
 ```
@@ -20,5 +24,6 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+&nbsp;
+## License:
+Copyright © by Kamil Filar
