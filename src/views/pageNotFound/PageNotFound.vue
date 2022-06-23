@@ -1,14 +1,15 @@
 <template>
   <div class="container">
     <div class="errorBox">
-      <h3 class="errorBox__title">Error 404</h3>
-      <h4 class="errorBox__subtitle">Nie udało znaleźć się wskazanej podstrony! 🤯</h4>
+      <h2 class="errorBox__title">Error 404</h2>
+      <p class="errorBox__subtitle">
+        Nie udało znaleźć się wskazanej podstrony! 🤯
+      </p>
     </div>
   </div>
 </template>
 
 <style scoped>
-@import "./../../assets/styling/typingAnimation.css";
 .container {
   display: flex;
   align-items: center;
@@ -16,7 +17,7 @@
   flex-direction: column;
   gap: 10%;
   min-height: 100vh;
-  background-image: url('./../../assets/images/bgPnf.webp');
+  background-image: url("./../../assets/images/bgPnf.webp");
   background-position: right bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -36,23 +37,17 @@
   font-family: "Cambria", serif;
   font-size: 70px;
   letter-spacing: 2px;
-    transition: .3s;
+  transition: font-size 0.3s;
 }
 
 .errorBox__subtitle {
+  margin: 0 auto;
   padding-right: 10px;
   font-family: "Pattaya", "Cambria", serif;
   font-weight: 100;
   font-size: 45px;
   letter-spacing: 3px;
-  overflow: hidden;
-  border-right: 2px solid orange;
-  white-space: nowrap;
-  margin: 0 auto;
-  animation: 
-    typing 4s steps(33, end),
-    blink-caret .7s step-end infinite;
-  transition: .3s;
+  transition: font-size 0.3s;
 }
 
 @media screen and (max-width: 1000px) {

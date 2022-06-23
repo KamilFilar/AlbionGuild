@@ -51,7 +51,7 @@ export default {
 }
 
 .center {
-  margin: 50px auto 100px;
+  margin: 50px auto;
 }
 
 @media screen and (max-width: 786px) {

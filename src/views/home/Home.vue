@@ -1,8 +1,10 @@
 <template>
+  <main>
     <Welcome />
     <AboutUs />
     <JoinUs />
     <Gallery />
+  </main>
 </template>
 
 <script>

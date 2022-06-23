@@ -1,9 +1,9 @@
 <template>
   <div class="container">
-    <div class="heading">
+    <section class="heading">
       <h1 class="heading__title">ZakonWiedzy.pl</h1>
-      <h2 class="heading__subtitle">Twoja przygoda zaczyna się tutaj!</h2>
-    </div>
+      <p class="heading__subtitle">Twoja przygoda zaczyna się tutaj!</p>
+    </section>
     <button class="btn" v-on:click="scrollToContent">
       <font-awesome-icon icon="fa-solid fa-arrow-down" class="fa-icon" />
     </button>
@@ -14,9 +14,11 @@
 export default {
   methods: {
     scrollToContent() {
-      return document.getElementById("aboutUs").scrollIntoView({behavior: "smooth"});
-    }
-  }
+      return document
+        .getElementById("aboutUs")
+        .scrollIntoView({ behavior: "smooth" });
+    },
+  },
 };
 </script>
 
@@ -38,10 +40,10 @@ export default {
 
 .heading {
   margin-top: -50px;
-  cursor: default;
   color: rgb(250, 250, 250);
   text-align: center;
   text-shadow: 0 2px 4px white;
+  cursor: default;
 }
 
 .heading__title {
@@ -49,21 +51,21 @@ export default {
   font-family: "Cambria", serif;
   font-size: 70px;
   letter-spacing: 2px;
-  transition: 0.3s;
+  transition: font-size 0.3s;
 }
 
 .heading__subtitle {
+  margin: 0 auto;
   padding-right: 10px;
+  overflow: hidden;
+  border-right: 2px solid transparent;
   font-family: "Pattaya", "Cambria", serif;
   font-weight: 100;
   font-size: 45px;
   letter-spacing: 3px;
-  overflow: hidden;
-  border-right: 2px solid transparent;
   white-space: nowrap;
-  margin: 0 auto;
   animation: typing 4s steps(33, end), blink-caret 0.7s step-end infinite;
-  transition: 0.3s;
+  transition: font-size 0.3s;
 }
 
 .btn {

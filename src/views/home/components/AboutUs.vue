@@ -1,12 +1,10 @@
 <template>
   <div class="wrapper" id="aboutUs">
-    <article>
-      <p class="text margin-top">
-        Jesteśmy jedną z najstarszych gildii na serwerze, a naszym celem jest
-        nauka nowych graczy oraz zrzeszanie tych bardziej doświadczonych.
-        Wspólnie zajmujemy coraz mocniejszą pozycję w świecie Albionu.
-      </p>
-    </article>
+    <p class="text margin-top">
+      Jesteśmy jedną z najstarszych gildii na serwerze, a naszym celem jest
+      nauka nowych graczy oraz zrzeszanie tych bardziej doświadczonych. Wspólnie
+      zajmujemy coraz mocniejszą pozycję w świecie Albionu.
+    </p>
     <img
       src="./../../../assets/images/appIcon.png"
       alt="Sword and pencil image"
@@ -65,8 +63,8 @@
   width: 75%;
   font-family: "Cambria", serif;
   font-size: 25px;
-  text-indent: 15px;
   line-height: 35px;
+  text-indent: 15px;
 }
 
 .margin-top {
@@ -93,7 +91,6 @@
 @media screen and (max-width: 786px) {
   .text {
     width: 90%;
-    border: 1px solid red;
   }
 
   .list {
