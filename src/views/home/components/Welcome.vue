@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="wrapper">
     <section class="heading">
       <h1 class="heading__title">ZakonWiedzy.pl</h1>
       <p class="heading__subtitle">Twoja przygoda zaczyna się tutaj!</p>
@@ -24,7 +24,7 @@ export default {
 
 <style scoped>
 @import "./../../../assets/styling/typingAnimation.css";
-.container {
+.wrapper {
   display: flex;
   align-items: center;
   justify-content: center;

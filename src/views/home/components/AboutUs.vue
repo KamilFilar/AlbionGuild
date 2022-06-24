@@ -1,17 +1,19 @@
 <template>
   <div class="wrapper" id="aboutUs">
-    <p class="text margin-top">
+    <h2 class="text margin-top">
       Jesteśmy jedną z najstarszych gildii na serwerze, a naszym celem jest
       nauka nowych graczy oraz zrzeszanie tych bardziej doświadczonych. Wspólnie
       zajmujemy coraz mocniejszą pozycję w świecie Albionu.
-    </p>
+    </h2>
     <img
       src="./../../../assets/images/appIcon.png"
       alt="Sword and pencil image"
       class="separatorImg"
+      width="100%"
+      height="auto"
     />
     <article>
-      <h2 class="subtitle">Dlaczego warto nas wybrać? 😄</h2>
+      <h3 class="subtitle">Dlaczego warto nas wybrać? 😄</h3>
       <ol class="list">
         <li class="list-item">
           W naszych szeregach znajdziesz zarówno nowych jak i doświadczonych
@@ -37,7 +39,7 @@
       </ol>
     </article>
     <article>
-      <h2 class="subtitle">Masz własną gildię? ⚔️</h2>
+      <h3 class="subtitle">Masz własną gildię? ⚔️</h3>
       <p class="text">
         Dołącz do naszego sojuszu i uzyskaj dostęp do dużej liczby graczy oraz
         ciekawych contentów dla swojej gildii. W początkowych miesiącach w
@@ -72,7 +74,6 @@
 }
 
 .separatorImg {
-  width: 100%;
   max-width: 300px;
 }
 

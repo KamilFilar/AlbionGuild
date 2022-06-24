@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <article>
-      <h2 class="subtitle">A poza tym my na prawdę się świetnie bawimy!</h2>
+      <h3 class="subtitle">A poza tym my na prawdę się świetnie bawimy!</h3>
       <p class="text">
         Z niepowodzeń się śmiejemy i najczęściej kończą jako... memy! 😅
       </p>

@@ -2,19 +2,27 @@
   <div class="wrapper">
     <img 
       src="./../../../assets/images/gallery/1.webp" 
-      alt="Ekipa w kryjówce" 
+      alt="Ekipa w kryjówce"
+      width="100%"
+      height="auto" 
     />
     <img
       src="./../../../assets/images/gallery/2.webp"
       alt="Ekipa na ścieżkach"
+      width="100%"
+      height="auto" 
     />
     <img 
       src="./../../../assets/images/gallery/3.webp" 
-      alt="Ekipa w Avalonie" 
+      alt="Ekipa w Avalonie"
+      width="100%"
+      height="auto"  
     />
     <img
       src="./../../../assets/images/gallery/4.webp"
       alt="Pokonani przeciwnicy"
+      width="100%"
+      height="auto" 
     />
   </div>
 </template>
@@ -31,10 +39,8 @@
 }
 
 img {
-  width: 100%;
   min-width: 250px;
   max-width: 540px;
-  height: auto;
   transition: transform 0.3s linear;
 }
 
