@@ -1,5 +1,5 @@
 # ZakonWiedzy :performing_arts:
-This app was made in Vue 3. [Take a look at the website](https://zakonwiedzy.pl)!
+This app was made in Vue 3 for guild in [Albion Online](https://albiononline.com/pl/news). [Take a look at the website](https://zakonwiedzy.pl)!
 
 ## :sparkles: Get started: 
 This project was generated with [Vue CLI](https://cli.vuejs.org) version 5.0.0.
@@ -23,7 +23,3 @@ npm run build
 ```
 npm run lint
 ```
-
-&nbsp;
-## License:
-Copyright © by Kamil Filar
